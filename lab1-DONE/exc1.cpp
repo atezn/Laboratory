@@ -7,9 +7,10 @@ Write your code in this editor and press "Run" button to compile and execute it.
 *******************************************************************************/
 
 #include <iostream>
+#include <iomanip>
 
 template <class T, class U>
-double GetMax (T a, U b) {
+double Smaller (T a, U b) {
  return (a<b?a:b);
 }
 
@@ -17,8 +18,8 @@ double GetMax (T a, U b) {
 int main()
 {
 
-    std::cout <<  GetMax(7.2, 8) << std::endl;
-    std::cout <<  GetMax(12, 8) << std::endl;
-    std::cout <<  GetMax(9.9, 8.6) << std::endl;
+    std::cout <<  Smaller(7.2, 8) << std::endl;
+    std::cout <<  Smaller(12, 8) << std::endl;
+    std::cout <<  Smaller(9.9, 8.6) << std::endl;
 
 }
