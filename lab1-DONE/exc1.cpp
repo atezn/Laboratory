@@ -9,7 +9,7 @@ Write your code in this editor and press "Run" button to compile and execute it.
 #include <iostream>
 
 template <class T, class U>
-double Smaller (T a, U b) {
+auto Smaller (T a, U b) {
  return (a<b?a:b);
 }
 
